@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Tipos de datos JS</title>
+    <script>
+        //declaracion de variables
+        var suma=9+10;
+        console.log(suma);
+    
+        //Tipos de dato entero
+        var entero=9;
+        console.log(entero);
+        //Utilizando concatenación para una mejor presentación
+        console.log("Tipo de dato entero: " + entero);
+
+        //tipo de dato flotante
+        var flotante=5.34;
+        console.log("Valor del tipo flotante: " + flotante);
+
+        //Tipo de dato cadena(String) se utilizan las "" o las ´´
+        var cadena= "Esto es JavaString";
+        console.log("Tipo de dato String: " + cadena);
+
+        var num_string1="20";
+        var num_string2="21";
+        console.log("Concatena 2 números: " + num_string1+num_string2);
+
+        //Tipos de Booleanos solo puede cotener
+        //Verdaero(true) o falso(false) o bien 1 y 0
+        var boolFalse=false;
+        var boolTrue=true;
+        console.log("Valor de tipo booleano: "+ boolFalse);
+        console.log("Valor de tipo booleano: " + boolTrue);
+
+        //OPERADOR UNARIO (typeof)
+        console.log("OPERADOR UNARIO");
+        console.log(typeof num1); //Regresa number
+        console.log(typeof cadena); //Regresa String
+        console.log(typeof true); //Regresa boolean
+
+        //OPERADORES DE COMPARACIÓN
+      //  console.log(num1 === num2); //retornará false
+        //console.log(num1 !== num2); //retornará true
+        //console.log(num1 < num2); //retornará true
+        //console.log(num1 > num2); //retornará false
+        //console.log(num1 <= num2); //retornará true
+        //console.log(num1 >= num2); //retornará false
+
+        //OPERADORES TERNARIOS
+        console.log(true ? 2:1);
+        console.log(false ? 2:1);
+
+       //Estructuras condicionales
+        var semaforo="amarillo"
+
+        if(semaforo=== "Verde")
+            alert("el semaforo esta en verde");
+            else if(semaforo === "rojo")
+            alert("el semaforo esta en rojo");
+            else if(semaforo === "amarillo")
+            alert("el semaforo esta en amarillo");
+            else
+            alert("El semaforo esta apagado/No esta funcionando");
+        
+
+    </script>
+</head>
+</body>
+
+</body>
+</html>
